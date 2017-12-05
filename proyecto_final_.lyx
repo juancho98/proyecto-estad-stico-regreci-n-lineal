@@ -1,0 +1,390 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size large
+Universidad La Salle Oaxaca
+\begin_inset Newline newline
+\end_inset
+
+ Escuela de Ingenierías y Arquitectura
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Ingeniería de Software y Sistemas Computacionales 
+\begin_inset Newline newline
+\end_inset
+
+Tercer Semestre
+\begin_inset Newline newline
+\end_inset
+
+Análisis estadístico del Módulo de Condiciones Socioeconómicas 2015
+\end_layout
+
+\begin_layout Standard
+\align center
+Proyecto final
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Curso: Probabilidad y Estadística
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\size large
+Presentan: 
+\begin_inset Newline newline
+\end_inset
+
+Cruz Aguilar Juan Daniel
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\size large
+Nieblas Hernández Glenn
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\size large
+Velasco Chincoya Karen Itzel
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Santa Cruz Xoxocotlán, Oaxaca.
+ 06 de diciembre de 2017.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.
+ Planteamiento del problema
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+El Módulo de Condiciones Socioeconómicas de la Encuesta Nacional de Ingresos
+ y Gastos de los Hogares (MCS) es un proyecto realizado por el Instituto
+ Nacional de Estadística y Geografía (INEGI), tiene la finalidad de captar
+ la información sociodemográfica, de vivienda, ocupación e ingresos de la
+ Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH), además de
+ los temas específicos para la medición multidimensional de la pobreza.
+ 
+\begin_inset Newline newline
+\end_inset
+
+El documento “Descripción de la base de datos” provee una guía a los diversos
+ usuarios con la información necesaria para el análisis de los microdatos.
+ De acuerdo con el objetivo del Módulo de Condiciones socioeconómicas, la
+ información estadística que produce el INEGI y que pone a disposición del
+ estado y la sociedad, contribuye al desarrollo del país, ya que permite
+ que las autoridades y representantes de los diversos sectores tengan un
+ mejor conocimiento de la realidad para fundamentar sus decisiones, así
+ como para evaluar los resultados de su desempeño.
+ Además, es un insumo fundamental para las investigaciones académicas que
+ coadyuvan a la comprensión del progreso del país y nuestro entorno.
+\begin_inset Newline newline
+\end_inset
+
+En este contexto, la base de datos del Módulo de Condiciones Socioeconómicas
+ de la ENIGH nos proporciona datos específicos del monto, la estructura
+ y la distribución de los ingresos de los hogares.
+ También otorga información sobre la composición familiar de los hogares,
+ salud, educación, seguridad social, calidad y espacios de la vivienda,
+ servicios básicos, alimentación y cohesión social, así como de la actividad
+ económica de cada uno de sus integrantes.
+\begin_inset Newline newline
+\end_inset
+
+Con base en el modelo entidad-relación y los atributos de cada variable,
+ elegimos 26 elementos para medir el grado de relación que tienen con el
+ ingreso trimestral por vivienda.
+ Este dato se obtuvo a partir de la suma de los ingresos individuales trimestral
+es por vivienda; el objetivo es predecir el ingreso trimestral por vivienda
+ a partir de algunas variables presentadas por el modelo relacional.
+\begin_inset Newline newline
+\end_inset
+
+2.
+ Marco teórico
+\end_layout
+
+\begin_layout Standard
+Conformación de la base de datos.
+ 
+\end_layout
+
+\begin_layout Standard
+La base de datos del módulo de condiciones socioeconómicas está conformada
+ de nueve tablas normalizadas y relacionadas, en ellas se encuentran las
+ respuestas de las encuestas realizadas en el año 2015; estas tablas guardan
+ relaciones uno a uno y uno a muchos según sea el caso de los datos.
+\end_layout
+
+\begin_layout Standard
+Tablas de la base de datos.
+\end_layout
+
+\begin_layout Standard
+1) Viviendas.
+ En esta tabla se encuentran contenidas las características de las viviendas
+ que habitan los integrantes de los hogares encuestados.
+ 
+\end_layout
+
+\begin_layout Standard
+2) Hogares En esta tabla se encuentran contenidas las características de
+ los hogares que habitan los integrantes de los mismos.
+ 
+\end_layout
+
+\begin_layout Standard
+3) Población.
+ Esta tabla proviene de la tabla Hogares.
+ Identifica las características sociodemográficas de los integrantes del
+ hogar; y el acceso a las instituciones de salud.
+ 
+\end_layout
+
+\begin_layout Standard
+4) Gastos hogar.
+ Esta tabla contiene las estimaciones del alquiler del hogar.
+ 
+\end_layout
+
+\begin_layout Standard
+5) Ingresos.
+ Esta tabla permite identificar los ingresos y percepciones financieras
+ y de capital de cada uno de los integrantes del hogar, por diversos conceptos.
+ 
+\end_layout
+
+\begin_layout Standard
+6) Gastos persona Esta tabla permite identificar los gastos realizados por
+ cada integrante del hogar.
+\end_layout
+
+\begin_layout Standard
+7) Trabajos.
+ Esta tabla muestra la condición de actividad de los integrantes del hogar
+ de 12 o más años y algunas características ocupacionales durante el periodo
+ de referencia.
+ 
+\end_layout
+
+\begin_layout Standard
+8) Agro.
+ Esta tabla muestra la información de los trabajadores independientes, mayores
+ de 12 años que tienen en el hogar negocios dedicados a las actividades
+ agrícolas, forestales y de tala, además de actividades de cría, explotación
+ y productos derivados de la pesca y caza.
+ 
+\end_layout
+
+\begin_layout Standard
+9) No agro Esta tabla muestra a los trabajadores independientes mayores
+ de 12 años, que tienen negocios en el hogar dedicados a las actividades
+ industriales, comerciales y de servicios.
+\end_layout
+
+\begin_layout Standard
+10)Concentrado hogar En esta tabla se encuentran las variables construidas
+ a partir de las otras tablas de la base de datos.
+ Registra el resumen concentrado por hogar, de ingresos y gastos en toda
+ modalidad posible.
+ Además todos los ingresos y gastos registrados en esta tabla son trimestrales
+\end_layout
+
+\begin_layout Standard
+Regresión lineal.
+ La regresión es una técnica estadística que consiste en calcular la similitud
+ entre dos variables en forma de función matemática.
+\end_layout
+
+\begin_layout Standard
+Regresión lineal múltiple.
+ La regresión lineal múltiple es una técnica estadística para comprobar
+ hipótesis y relaciones causales.
+ Estadístico r-cuadrado.
+ Indica el porcentaje de la varianza de la variable dependiente explicado
+ por el conjunto de variables independientes.
+ Cuanto mayor sea la R-cuadrado en el rango [0,1] , más explicativo y mejor
+ es el modelo causal.
+\end_layout
+
+\begin_layout Standard
+3.
+ Metodología de resolución La técnica utilizada para la resolución del problema
+ fue la regresión lineal múltiple, utilizando el paquete statsmodel, pertenecien
+te a pandas y la clase ols (Ordinary Least Squares), que a su vez implementa
+ el método de mínimos cuadrados.
+\end_layout
+
+\begin_layout Standard
+El primer paso para la resolución del problema fue determinar los pesos
+ de 26 variables distintas con ayuda de scikit-learn, cuyos resultados indican
+ cuáles son las variables con mayor peso, es decir, las que se relacionan
+ con la variable de salida.
+ El resultado fueron 2 variables: el número de días por semana que se consume
+ frutas y huevo, con base en este resultado, formulamos la hipótesis nula:
+ El número de días que se consume frutas y huevo está relacionado con los
+ ingresos trimestrales.
+ A partir de éstos resultados de peso de las 26 variables, se implementó
+ con ayuda de Python el método de regresión lineal, cuyo resultado más significa
+tivo fue R-cuadrada, que tomó el valor de 0.016.
+\end_layout
+
+\begin_layout Standard
+4.
+ Documentación del Software (Python) Python.
+ Python es un lenguaje de programación interpretado cuya filosofía hace
+ hincapié en una sintaxis que favorezca un código legible.
+ Actualmente se utiliza en data analysis y big data.
+ Se utilizaron dos librerías de Python: Scikit-learn y pandas.
+ Scikit-learn es una librería de código abierto de Python enfocado en el
+ aprendizaje automático (machine learning).
+ Pandas es una biblioteca de código abierto que proporciona estructuras
+ de datos y herramientas de análisis de datos de alto rendimiento y fácil
+ de usar.
+\end_layout
+
+\begin_layout Standard
+Las siguientes herramientas se utilizaron para leer y escribir datos en
+ memoria: CSV y archivos de texto, Microsoft Excel, bases de datos SQL y
+ el formato HDF5.
+\end_layout
+
+\begin_layout Standard
+5.
+ Presentación de resultados
+\end_layout
+
+\begin_layout Standard
+A partir de los resultados de peso de las 26 variables, con ayuda de Python
+ se implementó el método de regresión lineal, cuyo resultado más significativo
+ fue R-cuadrada, que tomó el valor de 0.016, debido a que el valor es mucho
+ más cercano a cero que a uno, rechazamos la hipótesis nula.
+ Por lo tanto, el número de días que se consume frutas y huevo no está relaciona
+do con los ingresos trimestrales de una familia.
+ 
+\end_layout
+
+\begin_layout Standard
+Referencias
+\end_layout
+
+\begin_layout Standard
+Módulo de Condiciones Socioeconómicas 2015.
+ Encuesta Nacional de Ingresos y Gastos de los Hogares.
+ Descripción de la base de datos; Módulo de Condiciones Socioeconómicas.
+ Encuesta Nacional de Ingresos y Gastos de los Hogares 2015.
+ Descripción de la base de datos.
+ Montero, R.
+ (2016).
+ Modelos de regresión lineal múltiple.
+ ESPAÑA: Universidad de Granada.
+ NUMFocus.
+ (2017).
+ Biblioteca de análisis de datos de Python .
+ diciembre 04, 2017, de pydata Sitio web: https://pandas.pydata.org/
+\end_layout
+
+\end_body
+\end_document
